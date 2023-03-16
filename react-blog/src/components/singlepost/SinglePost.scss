@@ -1,0 +1,109 @@
+.singlepost {
+  flex: 9;
+  flex-direction: column;
+  margin-top: 15px;
+  margin-left: 15px;
+  .singlepostimage {
+    width: 100%;
+    height: 450px;
+    img {
+      width: 100%;
+      height: 100%;
+      border-radius: 10px;
+    }
+  }
+  .singlepostparaInput {
+    margin-top: 5px;
+    padding: 20px;
+    font-size: 28px;
+    width: 100%;
+    font-family: "Lora";
+    text-align: center;
+    color: gray;
+    border: none;
+    border-bottom: 1px solid lightgray;
+  }
+  .singlepostparaInput:focus {
+    outline: none;
+  }
+
+  .singlepostpara {
+    text-align: center;
+    margin: 25px;
+    font-size: 25px;
+    font-family: "Lora", sans-serif;
+    font-weight: 700;
+    .singleposticons {
+      float: right;
+      font-size: 16px;
+      margin-left: 10px;
+      margin-top: 5px;
+      cursor: pointer;
+      .singlepostupdate:first-child {
+        color: teal;
+        margin-right: 10px;
+      }
+      .singlepostdelete:last-child {
+        color: tomato;
+      }
+    }
+  }
+  .singlepostdetails {
+    display: flex;
+
+    justify-content: space-between;
+    color: #be9656;
+    font-family: "Varela Round", Arial, Helvetica, sans-serif;
+  }
+  .singlePostDesc {
+    color: #666;
+    font-size: 18px;
+    line-height: 25px;
+  }
+
+  .singlePostDesc::first-letter {
+    margin-left: 20px;
+    font-size: 30px;
+    font-weight: 600;
+  }
+  .singlePostDescInput {
+    margin-top: 5px;
+
+    font-size: 18px;
+    line-height: 25px;
+    width: 100%;
+    font-family: "Lora";
+    text-align: center;
+    color: gray;
+    border: none;
+    border-bottom: 1px solid lightgray;
+  }
+  .singlePostDescInput:focus {
+    outline: none;
+  }
+  .updateButton {
+    padding: 10px;
+    // background-color: ;
+    border-radius: 5px;
+    color: white;
+    background-color: teal;
+    border: none;
+    padding: 8px;
+    margin-top: 10px;
+    cursor: pointer;
+    align-self: flex-end;
+  }
+  .cancelUpdate {
+    padding: 10px;
+    // background-color: ;
+    border-radius: 5px;
+    color: white;
+    background-color: teal;
+    border: none;
+    padding: 8px;
+    margin-top: 10px;
+    cursor: pointer;
+    align-self: flex-end;
+    margin-left: 15px;
+  }
+}
